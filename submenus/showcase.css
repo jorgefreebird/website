@@ -1,0 +1,33 @@
+body {
+    /*background: #006399;*/
+   color: whitesmoke;
+   padding: 0;
+   margin: 0;
+   height: 100%;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-weight: 300;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.homecontent{
+    background: #8a8a8a;
+    margin: auto;
+    margin-top: 2rem;
+    width: 95%;
+    height: 500px;
+    width: 95%;
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.sectionb{
+    background: rgb(244, 244, 244);
+    margin: auto;
+    width: 95%;
+    height: 500px;
+    text-align:center;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////*/

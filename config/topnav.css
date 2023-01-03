@@ -1,0 +1,88 @@
+.container {
+    /*background: #a6a6a6;*/
+    height: 7rem;
+    margin-top: 1rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+
+.logo {
+   /*background: #006399;*/
+    width: 4rem;
+    height: 100%;
+    float: left;
+    margin-left: 1rem;
+}
+
+.links{
+    margin-top: 1rem;
+    /*background: #6a6a6a;*/
+    float:right;
+    width: 2rem;
+}
+
+.linksa{
+    /*background: #006399;*/
+    margin-bottom: 0.3rem;
+}
+
+.linksicon{
+    /*background: #006399;*/
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+.linksicon:hover{
+    /*background: #006399;*/
+   color: rgb(224, 118, 48);
+   transition: 0.3s;
+}
+
+.linksb{
+    /*background: #006399;*/
+   font-family: 'Baloo Da 2', sans-serif, normal;
+   font-weight: 1000;
+   color: black;
+   text-decoration: none;
+   margin: auto;
+   float:right;
+   margin-top: 2.7rem;
+   padding-right:3rem;
+}
+
+.linksb:hover{
+    /*background: #006399;*/
+   color: rgb(224, 118, 48);
+   transition: 0.3s;
+}
+
+@media only screen and (max-width:700px) {
+  
+}
+
+
+
+
+.pathindicator{
+    font-family: 'Baloo Da 2', sans-serif, bold;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    font-weight: 400;
+    font-size: 12px;
+    color: black;
+}
+
+.pathindicator{
+    font-family: 'Baloo Da 2', sans-serif, bold;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    font-weight: 400;
+    font-size: 12px;
+    color: black;
+}
+.pathindicator a{
+    text-decoration: none;
+    color: black;
+}
