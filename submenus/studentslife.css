@@ -1,0 +1,177 @@
+body {
+    /*background: #006399;*/
+   color: whitesmoke;
+   padding: 0;
+   margin: 0;
+   height: 100%;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-weight: 300;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.homecontent{
+    /*background: #8a8a8a;*/
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 95%;
+    height: 650px;
+    width: 95%;
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.tablecontent{
+    /*background: rgb(194, 85, 85);*/
+    margin: auto;
+    width: 80%;
+    height: 650px;
+    color: #000000;
+    border-spacing: 15px;
+}
+
+.tableimage1{
+    height: 50%;
+    width: 25%;
+    background: rgb(52, 52, 52);
+    background-image: url('../assets/images/Rectangle\ 43.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tableimage2{
+    background: rgb(52, 52, 52);
+    background-image: url('../assets/images/Rectangle\ 46.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tableimage3{
+    width: 25%;
+    background: rgb(52, 52, 52);
+    background-image: url('../assets/images/Rectangle\ 49.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tableimage4{
+    background: rgb(52, 52, 52);
+    background-image: url('../assets/images/Rectangle\ 45.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tableimage5{
+    background: rgb(52, 52, 52);
+    background-image: url('../assets/images/Rectangle\ 50.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.tableimage6{
+    background: rgb(52, 52, 52);
+    background-image: url('../assets/images/Rectangle\ 48.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.sectiona{
+    background: rgb(244, 244, 244);
+    margin: auto;
+    height: 600px;
+    width: 95%;
+    text-align:center;
+}
+
+.item {
+    margin: 20px;
+    margin-top: 50px;
+	width: 400px;
+	height: 400px;
+	opacity: 1;
+    display:inline-block;
+    text-align: left;
+}
+
+.item h1{
+    font-family: 'Baloo Da 2', sans-serif, bold;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    width: 400px;
+}
+
+.item h2{
+    font-family: 'Space Mono', sans-serif, normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #35403A;
+     }
+
+.tablecontentb{
+    margin: auto;
+     width: 40%;
+    height: 400px;
+    color: #000000;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.tablebimage1{
+    height: 200px;
+    background: rgb(52, 52, 52);
+    background-image: url('../assets/images/Rectangle\ 20.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tablebimage2{
+    height: 200px;
+    background: rgb(52, 52, 52);
+    background-image: url('../assets/images/Rectangle\ 22.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.button{
+    background: rgb(255, 255, 255);
+    border: 0.5px solid #5A7AED;
+    margin: auto;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    width: 250px;
+    height: 45px;
+}
+
+.button h1{
+    font-family: 'Baloo Da 2', sans-serif, normal;
+    font-weight: 600;
+    font-size: 15.6px;
+    line-height: 25px;
+    margin-left: 10px;
+    text-align: left;
+    letter-spacing: 0.005em;
+    color: #5A7AED;
+    text-transform: uppercase;
+}
+
+.button h1:hover{
+    text-decoration-line: underline;
+}
+
