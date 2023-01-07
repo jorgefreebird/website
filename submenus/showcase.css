@@ -11,19 +11,383 @@ body {
 /*////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .homecontent{
-    background: #F5F5F5;;
     margin: auto;
     margin-top: 2rem;
+    margin-bottom: 3rem;
     width: 100%;
-    height: 1500px;
+    height: 1300px;
 }
 
+.t1 {
+    position: absolute;
+    color: #171717;
+    width: 0px;
+    height: 0px;
+    margin-left: 17%;
+    margin-top: 5%;
+    border-style: inset;
+    border-width: 0px 90px 170px 80px;
+    border-color: transparent transparent #5a7aed88 transparent;
+    float: left;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(60deg);
+    -o-transform: rotate(360deg);
+}
+
+.t1:hover {
+    border-color: transparent transparent #5a7aed transparent;
+}
+
+.t1 p {
+    text-align: center;
+    top: 80px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(300deg);
+}
+
+.t2 {
+    position: absolute;
+    color: #171717;
+    width: 0px;
+    height: 0px;
+    margin-left: 40%;
+    margin-top: 5%;
+    border-style: inset;
+    border-width: 0px 180px 170px 80px;
+    border-color: transparent transparent rgba(255, 166, 0, 0.5) transparent;
+    float: left;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(320deg);
+    -o-transform: rotate(360deg);
+}
+
+.t2:hover {
+    border-color: transparent transparent orange transparent;
+}
+
+.t2 p {
+    text-align: center;
+    top: 80px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(40deg);
+}
+
+.t3 {
+    position: absolute;
+    color: #171717;
+    width: 0px;
+    height: 0px;
+    margin-left: 80%;
+    margin-top: 5%;
+    border-style: inset;
+    border-width: 0px 90px 170px 80px;
+    border-color: transparent transparent #dcf2e660 transparent;
+    float: left;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(200deg);
+    -o-transform: rotate(360deg);
+}
+
+.t3:hover {
+    border-color: transparent transparent #DCF2E6 transparent;
+}
+
+.t3 p {
+    text-align: center;
+    top: 80px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(160deg);
+}
+
+.t4 {
+    position: absolute;
+    color: #171717;
+    width: 0px;
+    height: 0px;
+    margin-left: 40%;
+    margin-top: 30%;
+    border-style: inset;
+    border-width: 0px 90px 170px 80px;
+    border-color: transparent transparent #dcf2e67a transparent;
+    float: left;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.t4:hover {
+    border-color: transparent transparent #DCF2E6 transparent;
+}
+
+.t4 p {
+    text-align: center;
+    top: 80px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.t5 {
+    position: absolute;
+    color: #171717;
+    width: 0px;
+    height: 0px;
+    margin-left: 10%;
+    margin-top: 40%;
+    border-style: inset;
+    border-width: 0px 90px 170px 80px;
+    border-color: transparent transparent #5a7aed88 transparent;
+    float: left;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(360deg);
+}
+
+.t5:hover {
+    border-color: transparent transparent #5a7aed transparent;
+}
+
+.t5 p {
+    text-align: center;
+    top: 80px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(270deg);
+}
+
+.t6 {
+    position: absolute;
+    color: #171717;
+    width: 0px;
+    height: 0px;
+    margin-left: 50%;
+    margin-top: 50%;
+    border-style: inset;
+    border-width: 0px 90px 170px 80px;
+    border-color: transparent transparent #dcf2e67a transparent;
+    float: left;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(200deg);
+    -o-transform: rotate(360deg);
+}
+
+.t6:hover {
+    border-color: transparent transparent #DCF2E6 transparent;
+}
+
+.t6 p {
+    text-align: center;
+    top: 80px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(160deg);
+}
+
+.t7 {
+    position: absolute;
+    color: #171717;
+    width: 0px;
+    height: 0px;
+    margin-left: 70%;
+    margin-top: 30%;
+    border-style: inset;
+    border-width: 0px 90px 170px 80px;
+    border-color: transparent transparent #5a7aed88 transparent;
+    float: left;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(360deg);
+}
+
+.t7:hover {
+    border-color: transparent transparent #5a7aed transparent;
+}
+
+.t7 p {
+    text-align: center;
+    top: 80px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(90deg);
+}
+
+.t8 {
+    position: absolute;
+    color: #171717;
+    width: 0px;
+    height: 0px;
+    margin-left: 75%;
+    margin-top: 50%;
+    border-style: inset;
+    border-width: 0px 90px 170px 80px;
+    border-color: transparent transparent rgba(255, 166, 0, 0.5)transparent;
+    float: left;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(210deg);
+    -o-transform: rotate(360deg);
+}
+
+.t8:hover {
+    border-color: transparent transparent orange transparent;
+}
+
+.t8 p {
+    text-align: center;
+    top: 80px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(150deg);
+}
+
+.t9 {
+    position: absolute;
+    color: #171717;
+    width: 0px;
+    height: 0px;
+    margin-left: 10%;
+    margin-top: 20%;
+    border-style: inset;
+    border-width: 0px 90px 170px 80px;
+    border-color: transparent transparent rgba(255, 166, 0, 0.5)transparent;
+    float: left;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(30deg);
+    -o-transform: rotate(360deg);
+}
+
+.t9:hover {
+    border-color: transparent transparent orange transparent;
+}
+
+.t9 p {
+    text-align: center;
+    top: 80px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(330deg);
+}
 
 
 
 /*////////////////////////////////////////////////////////////////////////////////////////////*/
 
-.buttonlearn{
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.2s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+  .videoframe{
+    background: rgb(255, 255, 255);
+    position: relative;
+	margin: auto;
+    margin-top: 7%;
+	height:500px;
+	width:50%;
+}
+
+.video{
+    margin: auto;
+    width:100%;
+    height: 100%;
+    border: 0;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.button{
     background: rgb(255, 255, 255);
     border: 0.5px solid #5A7AED;
     margin: auto;
@@ -32,11 +396,11 @@ body {
     height: 2rem;
 }
 
-.buttonlearn:hover {
+.button:hover {
     background: rgba(90, 122, 237, 0.2);
 }
 
-.buttonlearn h1{
+.button h1{
     font-family: 'Baloo Da 2', sans-serif, normal;
     font-weight: 600;
     font-size: 14px;
