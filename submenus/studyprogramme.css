@@ -32,7 +32,7 @@ body {
 }
 
 .tabletitlebig{
-    font-family: 'Baloo Da 2', sans-serif, normal;
+    font-family: 'BalooDa2', sans-serif, normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 3rem;
@@ -61,7 +61,7 @@ body {
 }
 
 .displaycontent h1{
-    font-family: 'Baloo Da 2', sans-serif, bold;
+    font-family: 'BalooDa2', sans-serif, bold;
     margin-top: 4rem;
     font-weight: 600;
     font-size: 26px;
@@ -69,7 +69,7 @@ body {
 }
 
 .displaycontent h2{
-    font-family: 'Baloo Da 2', sans-serif, bold;
+    font-family: 'BalooDa2', sans-serif, bold;
     margin-top: 2rem;
     font-weight: 600;
     font-size: 20px;
@@ -140,7 +140,7 @@ body {
 .tablecontentbtitle{
     width: 30%;
     color: #000000;
-    font-family: 'Space Mono', sans-serif, normal;
+    font-family: 'SpaceMono', sans-serif, normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 25px;
@@ -156,7 +156,7 @@ body {
 }
 
 .buttonlearn h1{
-    font-family: 'Baloo Da 2', sans-serif, normal;
+    font-family: 'BalooDa2', sans-serif, normal;
     width: 100%;
     font-weight: 600;
     font-size: 12px;
