@@ -58,9 +58,69 @@
    transition: 0.3s;
 }
 
-@media only screen and (max-width:700px) {
-  
+.icon{
+    margin: 20px;
+    position: absolute;
+    right: 70px;
+    scale: 1.5;
+    color: black;
 }
+
+.icon:hover{
+    background-color: rgb(228, 214, 191);
+}
+
+
+#toplinks {
+    display:inline-block;
+}
+
+
+
+.toplinksa {
+    position: absolute;
+    top: 70px;
+    right: 150px;
+    height: 100%;
+    width: 150px;
+    display: flex;
+    float: right;
+}
+
+.toplinksb {
+    padding-left: 10px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+    height: 50px;
+    width: 200px;
+    display: inline-flex;
+    color: black;
+    font-family: 'Baloo Da 2', sans-serif, normal;
+   font-weight: 1000;
+   color: black;
+   text-decoration: none;
+}
+
+.toplinksb:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+  @media screen and (min-width: 1100px) {
+
+    .topnav {
+        display: none;
+      }
+  }
+
+@media screen and (max-width: 1100px) {
+    .linksa {
+        display: none;
+    }
+    .linksb {
+        display: none;
+    }
+  }
 
 
 
@@ -86,3 +146,6 @@
     text-decoration: none;
     color: black;
 }
+
+/*///////////////////////////////////////////////////////*/
+
