@@ -1,14 +1,3 @@
-@font-face {
-    font-family: "SpaceMonoBold";
-    src: url('../assets/fonts/SpaceMono-Bold.ttf') format("truetype");
-    
-  }
-
-  @font-face {
-    font-family: "SpaceMono";
-    src: url('../assets/fonts/SpaceMono-Regular.ttf') format("truetype");
-  }
-
 body {
      /*background: #006399;*/
     color: whitesmoke;
@@ -45,13 +34,13 @@ body {
 }
 
 .hometexta{
-    font-family: 'Baloo Da 2', sans-serif, bold;
+    font-family: 'BalooDa2', sans-serif, bold;
     font-weight: 600;
     color: rgb(227, 227, 227);
 }
 
 .hometexta{
-    font-family: 'Baloo Da 2', sans-serif, bold;
+    font-family: 'BalooDa2', sans-serif, bold;
     font-weight: 200;
     color: rgb(227, 227, 227);
 }
@@ -107,7 +96,7 @@ body {
 
 .tablecontent h1{
     /*background: rgb(156, 97, 97);*/
-    font-family: 'Baloo Da 2', sans-serif, bold;
+    font-family: 'BalooDa2', sans-serif, bold;
     font-weight: 600;
     font-size: 19px;
     color: #000000;
@@ -128,7 +117,7 @@ body {
     width: 240px;
     height: 219px;
     text-align: center;
-    font-family: 'Baloo Da 2', sans-serif, bold;
+    font-family: 'BalooDa2', sans-serif, bold;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
@@ -239,7 +228,7 @@ body {
 }
 
 .whybox h1{
-    font-family: 'Baloo Da 2', sans-serif, normal;
+    font-family: 'BalooDa2', sans-serif, normal;
     font-weight: 600;
     font-size: 26px;
     line-height: 32px;
@@ -247,7 +236,7 @@ body {
 }
 
 .whybox h2{
-    font-family: 'Baloo Da 2', sans-serif, normal;
+    font-family: 'BalooDa2', sans-serif, normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
@@ -371,7 +360,7 @@ body {
 }
 
 .buttonlearn h1{
-    font-family: 'Baloo Da 2', sans-serif, normal;
+    font-family: 'BalooDa2', sans-serif, normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 30px;
