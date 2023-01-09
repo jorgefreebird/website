@@ -1,15 +1,4 @@
-@font-face {
-    font-family: "SpaceMonoBold";
-    src: url('../assets/fonts/SpaceMono-Bold.ttf') format("truetype");
-    
-  }
-
-  @font-face {
-    font-family: "SpaceMono";
-    src: url('../assets/fonts/SpaceMono-Regular.ttf') format("truetype");
-  }
-  
-  .infosection{
+.infosection{
     background: #1E1E1E;
     margin: auto;
     margin-top: 0rem;
@@ -56,7 +45,7 @@
 }
 
 .showmaps h1{
-    font-family: 'Baloo Da 2', sans-serif, normal;
+    font-family: 'BalooDa2', sans-serif, normal;
     width: auto;
     font-weight: 600;
     font-size: 12px;
