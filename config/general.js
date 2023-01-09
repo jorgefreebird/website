@@ -9,6 +9,16 @@ function openInNewTab(url) {
 	document.getElementById('video').src="https://www.youtube.com/embed/"+vids[numSlide];
 	}
 
+  function topButton() {
+    if(document.getElementById("toplinks").style.display == 'inline-block'){
+    document.getElementById("toplinks").style.display = 'none';}
+    else{document.getElementById("toplinks").style.display = 'inline-block';}
+  }
+
+  function hideButton() {
+    document.getElementById("toplinks").style.display = 'none';
+  }
+
   function openNav(num) {
     document.getElementById("myNav").style.width = "100%";
     document.getElementById('video').src="https://www.youtube.com/embed/"+vids[numSlide];
@@ -21,3 +31,4 @@ function openInNewTab(url) {
     numSlide=0;
 		showslide();
   }
+
