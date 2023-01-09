@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student's Life</title>
+    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.sound.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../config/topnav.css">
+    <link rel="stylesheet" type="text/css" href="../config/botinfo.css">
+    <link rel="stylesheet" type="text/css" href="studentslife.css">
+    <meta charset="utf-8" />
+
+</head>
+
+<body onload="hideButton()">
+
+    <div class="topnav" id="topnav">
+        <a class="icon" onclick="topButton()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <div class="toplinksa" id="toplinks">
+            <a class="toplinksb" href="chat.html">chat with us</a>
+            <a class="toplinksb" href="studentslife.html">student's life</a>
+            <a class="toplinksb" href="showcase.html">showcase</a>
+            <a class="toplinksb" href="studyprogramme.html">study programme</a>
+        </div>
+        
+  </div>
+
+    <div class="container">
+
+        <div class="logo">
+            <a href="../index.html">
+            <img src="../assets/images/Logotipo ESMAD_b1.png" width="100%" alt="ESMAD building photo">
+            <img src="../assets/images/Logotipo ESMAD_b2.png" height="80%" alt="ESMAD building photo">
+        </a>
+        </div>
+
+        <div>
+            <div class="links">
+                <div class="linksa"><a class="linksicon" href="">EN</a></div>    
+                <div class="linksa"><a class="linksicon" href=""><i class="fa fa-cog fa-xs"></i></a></div>
+                <div class="linksa"><a class="linksicon" href=""><i class="fa fa-search fa-sm"></i></a></div>
+            </div>
+            <a class="linksb" href="chat.html">chat with us</a>
+            <a class="linksb" href="studentslife.html">student's life</a>
+            <a class="linksb" href="showcase.html">showcase</a>
+            <a class="linksb" href="studyprogramme.html">study programme</a>
+        </div>
+    </div>
+
+    <div class="pathindicator">
+        <a href="../index.html">homepage</a> / <b>student's life</b>
+    </div>
+
+    <div class="homecontent">
+        <table  class="tablecontent">
+            <tbody>
+                <tr>
+                    <td class="tableimage1"></td>
+                    <td class="tableimage2" colspan="2"></td>
+                    <td class="tableimage3" rowspan="3"></td>
+                </tr>
+
+                <tr>
+                    <td class="tableimage4"></td>
+                    <td class="tableimage5" colspan="2" rowspan="2"></td>   
+                </tr>
+
+                <tr>
+                    <td class="tableimage6"></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div class="sectiona">
+        <div class="item">
+            <table class="tablecontentb">
+                <tbody>
+                    <tr>
+                        <td> 
+                            <h1>Our Acommodation on José Régio complex</h1>
+                            <h2>The P. PORTO SAS currently have six student residences,
+                            four of which are located in the municipality of Porto (Campus 1)
+                            and two in Vila do Conde (Campus 2). The accommodation capacity of
+                            these structures is currently 317 students.</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2"><div class="tablebimage1"></div></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="item">
+            <table class="tablecontentb">
+                <tbody>
+                    <tr>
+                        <td><div class="tablebimage2"></div></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h1>In each residence, each student finds their space of comfort and well-being.</h1>
+                            <h2>In fulfilling its fundamental mission, it is about guaranteeing
+                                everyone access to the fundamental conditions for pursuing studies
+                                in accordance with all needs.</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="button">
+                                <h1>Apply for residence now</h1>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div> 
+    </div>
+
+    <div class="infosection">
+        <div class="logowhite">
+            <img src="../assets/images/Logotipo ESMAD_b1.png" width="50%" alt="ESMAD building photo">
+            <img src="../assets/images/Logotipo ESMAD_b2.png" height="80%" alt="ESMAD building photo">
+        </div>
+
+        <div class="contactinfo">
+            <h1>Escola de Media Artes e Design
+                <br>Rua D. Sancho I, n.º 981 
+                <br>4480-786 
+                <br>Vila do Conde Portugal 
+                <br>
+                <br>T. +351 252 291 700 
+                <br>E. geral@esmad.ipp.pt
+            </h1>
+            <div class="showmaps" onclick="openInNewTab('https://goo.gl/maps/2pgqiyNcrFr5sYB2A');">
+                <h1>Show me on maps</h1>
+            </div>
+       </div>
+
+        <div class="mediainfo">
+            <table class="mediatable">
+                <tbody >
+                    <tr>
+                    <td>Applications</td>
+                    <td>Domus</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Public Documents</td>
+                    <td>Moodle</td>
+                    </tr>
+
+                    <tr>
+                    <td>Events</td>
+                    <td>E-mail</td>
+                    </tr>
+
+                    <tr>
+                    <td>Site Map</td>
+                    <td>CPR Requisitions</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Newsletter</td>
+                    <td>Library</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="medialinks">  
+                <div><img src="../assets/images/brand and logo/facebook.png"></div>
+                <div><img src="../assets/images/brand and logo/instagram.png"></div>
+                <div><img src="../assets/images/brand and logo/linkedin.png"></div>
+                <div><img src="../assets/images/brand and logo/twitter.png"></i></div>
+                <div><img src="../assets/images/brand and logo/youtube.png"></i></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="pagesignature">
+        <p>/studentslife</p>
+        <p>Politétcnico do porto© 2016</p>
+    </div>
+
+    
+    <script src="../config/general.js" async defer></script>
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Showcase</title>
+    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.sound.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../config/topnav.css">
+    <link rel="stylesheet" type="text/css" href="../config/botinfo.css">
+    <link rel="stylesheet" type="text/css" href="showcase.css">
+    <meta charset="utf-8" />
+
+</head>
+
+<body onload="hideButton()">
+
+    <div class="topnav" id="topnav">
+        <a class="icon" onclick="topButton()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <div class="toplinksa" id="toplinks">
+            <a class="toplinksb" href="chat.html">chat with us</a>
+            <a class="toplinksb" href="studentslife.html">student's life</a>
+            <a class="toplinksb" href="showcase.html">showcase</a>
+            <a class="toplinksb" href="studyprogramme.html">study programme</a>
+        </div>
+        
+  </div>
+
+    <div class="container">
+
+        <div class="logo">
+            <a href="../index.html">
+            <img src="../assets/images/Logotipo ESMAD_b1.png" width="100%" alt="ESMAD building photo">
+            <img src="../assets/images/Logotipo ESMAD_b2.png" height="80%" alt="ESMAD building photo">
+        </a>
+        </div>
+
+        <div>
+            <div class="links">
+                <div class="linksa"><a class="linksicon" href="">EN</a></div>    
+                <div class="linksa"><a class="linksicon" href=""><i class="fa fa-cog fa-xs"></i></a></div>
+                <div class="linksa"><a class="linksicon" href=""><i class="fa fa-search fa-sm"></i></a></div>
+            </div>
+            <a class="linksb" href="chat.html">chat with us</a>
+            <a class="linksb" href="studentslife.html">student's life</a>
+            <a class="linksb" href="showcase.html">showcase</a>
+            <a class="linksb" href="studyprogramme.html">study programme</a>
+        </div>
+    </div>
+
+    <div class="pathindicator">
+       <a href="../index.html">homepage</a> / <b>showcase</b>
+    </div>
+
+    
+    <div class="homecontent">
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" >&times;</a>
+            <div class="videoframe">
+                <iframe class="video" id="video" src="https://www.youtube.com/embed/" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                </div>
+        </div>
+
+        <div class="t1" onclick="openNav(1)">
+            <p><br>Água Imersiva<p>
+        </div>
+
+        <div class="t2" onclick="openNav(2)">
+            <p><br>AI Nature<p>
+        </div>
+
+        <div class="t3" onclick="openNav(3)">
+            <p><br>Jogo Educativo<p>
+        </div>
+        <div class="t4" onclick="openNav(4)">
+            <p><br>O prédio<p>
+        </div>
+        <div class="t5" onclick="openNav(5)">
+            <p><br>Os meus amigos monstros<p>
+        </div>
+        <div class="t6" onclick="openNav(6)">
+            <p><br>separadores canal 180<p>
+        </div>
+        <div class="t7" onclick="openNav(7)">
+            <p><br>Olho de nefele<p>
+        </div>
+        <div class="t8" onclick="openNav(8)">
+            <p><br>sinestesia expandida<p>
+        </div>
+        <div class="t9" onclick="openNav(8)">
+            <p><br>Linhas Elementares<p>
+        </div>
+
+        <svg width=100% height="1400">
+            <circle cx="10%" cy="14%" r="2%" style="fill: orange" />
+            <circle cx="30%" cy="30%" r="5%" style="fill: #5a7aed" />
+            <circle cx="75%" cy="20%" r="2%" style="fill:none; stroke: orange; stroke-width:2" />
+            <circle cx="55%" cy="50%" r="3%" style="fill:none; stroke: #5a7aed; stroke-width:2" />
+            <circle cx="35%" cy="70%" r="3%" style="fill:none; stroke: orange; stroke-width:2" />
+            <circle cx="10%" cy="75%" r="1%" style="fill: orange" />
+            <circle cx="70%" cy="80%" r="5%" style="fill:none; stroke: #5a7aed; stroke-width:2" />
+            <path d="M 200 1230 Q 150 1225, 200 1214 T 210 1200, 210 1185 T 230 1170, 215 1160 T 250 1145, 245 1130, 300 1110" style="fill:none; stroke: rgb(84, 158, 165); stroke-width:7"/>
+        </svg>
+            
+    </div>
+
+    <div class="button" onclick="window.open('studentslife.html')">
+        <h1>I want to know more</h1>
+    </div>
+
+
+
+    <div class="infosection">
+        <div class="logowhite">
+            <img src="../assets/images/Logotipo ESMAD_b1.png" width="50%" alt="ESMAD building photo">
+            <img src="../assets/images/Logotipo ESMAD_b2.png" height="80%" alt="ESMAD building photo">
+        </div>
+
+        <div class="contactinfo">
+            <h1>Escola de Media Artes e Design
+                <br>Rua D. Sancho I, n.º 981 
+                <br>4480-786 
+                <br>Vila do Conde Portugal 
+                <br>
+                <br>T. +351 252 291 700 
+                <br>E. geral@esmad.ipp.pt
+            </h1>
+            <div class="showmaps" onclick="openInNewTab('https://goo.gl/maps/2pgqiyNcrFr5sYB2A');">
+                <h1>Show me on maps</h1>
+            </div>
+       </div>
+
+        <div class="mediainfo">
+            <table class="mediatable">
+                <tbody >
+                    <tr>
+                    <td>Applications</td>
+                    <td>Domus</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Public Documents</td>
+                    <td>Moodle</td>
+                    </tr>
+
+                    <tr>
+                    <td>Events</td>
+                    <td>E-mail</td>
+                    </tr>
+
+                    <tr>
+                    <td>Site Map</td>
+                    <td>CPR Requisitions</td>
+                    </tr>
+                    
+                    <tr>
+                    <td>Newsletter</td>
+                    <td>Library</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="medialinks">  
+                <div><img src="../assets/images/brand and logo/facebook.png"></div>
+                <div><img src="../assets/images/brand and logo/instagram.png"></div>
+                <div><img src="../assets/images/brand and logo/linkedin.png"></div>
+                <div><img src="../assets/images/brand and logo/twitter.png"></i></div>
+                <div><img src="../assets/images/brand and logo/youtube.png"></i></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="pagesignature">
+        <p>/showcase</p>
+        <p>Politétcnico do porto© 2016</p>
+    </div>
+
+    
+    <script src="../config/general.js" async defer></script>
+</body>
+
+</html>

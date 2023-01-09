@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "SpaceMonoBold";
+    src: url('../assets/fonts/SpaceMono-Bold.ttf') format("truetype");
+    
+  }
+
+  @font-face {
+    font-family: "SpaceMono";
+    src: url('../assets/fonts/SpaceMono-Regular.ttf') format("truetype");
+  }
+  
+  .infosection{
+    background: #1E1E1E;
+    margin: auto;
+    margin-top: 0rem;
+    height: 400px;
+    width: 100%;
+}
+
+.logowhite {
+    /*background: #006399;*/
+    filter: invert(100%);
+    float: left;
+    margin-left: 20%;
+    margin-top: 4rem;
+}
+
+.contactinfo {
+    /*background: #006399;*/
+    float: left;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+
+.contactinfo h1{
+    /*background: #006399;*/
+    width:100%;
+    color: #DCF2E6;
+    font-family: 'SpaceMono', sans-serif, normal;
+    font-weight: 400;
+    font-style: normal;
+    align-items: left;
+    text-align: left;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.showmaps{
+    border: 0.5px solid #5A7AED;
+    margin: 0px;
+    margin-top: 2rem;
+    align-items: left;
+    text-align: left;
+    height: 27px;
+    width: 150px;
+}
+
+.showmaps h1{
+    font-family: 'Baloo Da 2', sans-serif, normal;
+    width: auto;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #5A7AED;
+    text-transform: uppercase;
+}
+
+.showmaps a{
+    text-decoration: none;
+    }
+
+.showmaps:hover{
+        background: rgba(255, 255, 255, 0.7);
+        border: 0.5px solid #dbdbdb;
+}
+
+    
+.mediainfo {
+    /*background: #006399;*/
+    float: right;
+    text-align: left;
+    margin-right: 30%;
+    margin-top: 4rem;
+}
+
+.mediatable{
+    width: 80%;
+    border-spacing: 15px;
+}
+
+.mediatable td{
+    font-family: 'SpaceMono', sans-serif, normal;
+    font-weight: 300;
+    font-size: 12px;
+    text-decoration-line: underline;
+    color: #DCF2E6;
+    text-transform: uppercase;
+}
+
+.mediatable td:hover{
+    color: rgb(224, 118, 48);
+    transition: 0.3s;
+}
+
+.medialinks{
+    /*background: #006399;*/
+    display: flex;
+    float: left;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.medialinks div{
+    /*background: #2a95cf;*/
+    margin: 7px;
+}
+
+.medialinks i{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.medialinks a{
+    text-decoration: none;
+}
+
+.medialinks i:hover{
+    /*background: #006399;*/
+   color: rgb(224, 118, 48);
+   transition: 0.3s;
+}
+
+.pagesignature {
+    background: rgb(244, 244, 244);
+    width: 100%;
+    height: 80px;
+    margin-bottom: 0px;
+    color: #35403A;
+    font-weight: 200;
+    font-family: 'SpaceMono', sans-serif, normal;
+    font-size: 9px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #35403A;
+}
